@@ -30,10 +30,12 @@ gcc-4.8.5 dev-envs
 装依赖包
 
 1. tar -xjf mpfr-2.4.2.tar.gz         //解压
+
        ln -sf mpfr-2.4.2  mpfr      //建立软连接
 2. tar -xjf gmp-4.3.2.tar.gz
+
 	     ln –sf gmp-4.3.2 gmp
-3. tar -xzf mpc-0.8.1.tar.gz
+3. tar -xzf mpc-0.8.1.tar.gz 
 	     ln –sf mpc-0.8.1  mpc
 
 生成Makefile 编译新的gcc、安装
